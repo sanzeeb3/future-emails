@@ -1,0 +1,8 @@
+{
+  "name": "sanzeeb3/future-emails",
+  "description": "Send emails in future from within your WordPress dashboard.",
+  "license": "MIT",
+  "require": {
+    "woocommerce/action-scheduler": "^3.1"
+  }
+}

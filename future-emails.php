@@ -13,15 +13,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-require_once( 'action-scheduler/action-scheduler.php' );
+require_once( 'vendor/woocommerce/action-scheduler/action-scheduler.php' );
 
 add_action( 'admin_menu', 'add_settings' );
 add_action( 'admin_init', 'get_form_data' );
   
 function add_settings() {
 
-	// This settings page is available for all user roles. If you'd like to restrict, change the capability. 
-	add_options_page( 'Future Emails', 'Future Emails', 'read', 'future-emails', 'future_email_form' );
+	// This tools sub-menu is available for all user roles. If you'd like to restrict, change the capability. 
+	add_management_page( 'Future Emails', 'Future Emails', 'read', 'future-emails', 'future_email_form' );
 }
  
 function future_email_form() {
