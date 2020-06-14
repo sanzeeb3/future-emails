@@ -2,8 +2,8 @@
 
 ## A simple example demonstration of the [Action Scheduler library by WooCommerce](https://github.com/woocommerce/action-scheduler)
 
-### Send emails in future.
+Send emails in future.
 
-### Send email from Settings > Future Email.
+Send email from Settings > Future Email.
 
-### See the scheduled actions from /tools.php?page=action-scheduler.
+See the scheduled actions from /tools.php?page=action-scheduler.
