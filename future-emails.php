@@ -5,8 +5,6 @@
  * Version: 1.0.0
  * Author: Sanjeev Aryal
  * Author URI: http://www.sanjeebaryal.com.np
- * Text Domain: future-emails
- * Domain Path: /languages/
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
