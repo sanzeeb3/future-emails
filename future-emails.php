@@ -79,9 +79,7 @@ function get_form_data() {
 			return;
 		}
 
-		if ( false === as_next_scheduled_action( 'future_email' ) ) {
-			as_schedule_recurring_action( strtotime( '+'. $day .'day' ), DAY_IN_SECONDS, 'future_email', array( $to, $subject, $message ), 'future_email' );
-		}
+		as_schedule_recurring_action( strtotime( '+'. $day .'day' ), DAY_IN_SECONDS, 'future_email', array( $to, $subject, $message ), 'future_email' );
 	}
 }
 
